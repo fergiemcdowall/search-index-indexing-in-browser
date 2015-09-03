@@ -1,0 +1,31 @@
+{
+  "name": "search-index-indexing-in-browser",
+  "version": "0.0.1",
+  "description": "This is a super simple demo for indexing documents to a search-index in the browser",
+  "main": "main.js",
+  "scripts": {
+    "build-js": "browserify main.js -o bundle.js",
+    "postinstall": "npm run build-js"
+  },
+  "dependencies": {
+    "brfs": "1.4.1",
+    "browserify": "11.0.1",
+    "level-js": "2.2.1",
+    "reuters-21578-json": "0.0.6",
+    "search-index": "0.6.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fergiemcdowall/search-index-indexing-in-browser.git"
+  },
+  "keywords": [
+    "search-index",
+    "search"
+  ],
+  "author": "Fergus McDowall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fergiemcdowall/search-index-indexing-in-browser/issues"
+  },
+  "homepage": "https://github.com/fergiemcdowall/search-index-indexing-in-browser#readme"
+}
