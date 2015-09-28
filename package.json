@@ -12,7 +12,7 @@
     "browserify": "11.0.1",
     "level-js": "2.2.1",
     "reuters-21578-json": "0.0.6",
-    "search-index": "0.6.8"
+    "search-index": "0.6.11"
   },
   "repository": {
     "type": "git",
